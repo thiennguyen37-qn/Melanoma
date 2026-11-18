@@ -1,4 +1,4 @@
-"""Calibration of every main run (exploratory, PROTOCOL.md section 9; requested by JAMA guidance for AI studies).
+"""Calibration of every main run (exploratory, PROTOCOL.md section 9; as recommended by the TRIPOD+AI reporting guidance).
 
 For each run and each evaluation set (val, internal test, BALD, PAD-UFES-20), from the TTA probabilities in
 preds_<set>.csv:

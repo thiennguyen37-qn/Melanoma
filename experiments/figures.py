@@ -226,7 +226,7 @@ def flow_counts(root):
 
 def efig_flow(root, out):
     c = flow_counts(root)
-    n = lambda v: f"{v:,}".replace(",", " ")  # JAMA style: space as thousands separator
+    n = lambda v: f"{v:,}".replace(",", " ")  # space as thousands separator
     fig, ax = plt.subplots(figsize=(7.2, 5.9))
     ax.set_xlim(0, 100)
     ax.set_ylim(11, 100)
